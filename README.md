@@ -1,6 +1,6 @@
 ## Forked from [Bridge Team](https://github.com/bridge-core/editor/tree/8b2499b/src/components/JSONSchema)
 
-<div style="border-left: 1px rgb(31, 31, 31) solid;text-align: center;" id="implement-table">
+<div style="text-align: center;" id="implement-table">
 
 | Keyword          | Implemented | Keyword              | Implemented |
 | ---------------- | ----------- | -------------------- | ----------- |
