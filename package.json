@@ -1,0 +1,31 @@
+{
+  "name": "jsonschema-vsc",
+  "version": "1.0.0",
+  "description": "Implement Json Schema loader, validator and provide autocompletion, diagnostics using vscode api",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "tsc -watch -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NguyenDuck/jsonschema-vsc.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "vscode",
+    "api"
+  ],
+  "author": "NguyenDuck",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NguyenDuck/jsonschema-vsc/issues"
+  },
+  "homepage": "https://github.com/NguyenDuck/jsonschema-vsc",
+  "dependencies": {
+    "@types/vscode": "^1.84.2"
+  },
+  "devDependencies": {
+    "jsonc-parser-vsc": "file:../jsonc-parser-vsc"
+  }
+}
